@@ -2,16 +2,14 @@ import IUKit
 
 var numeros = 1...100 
 
-print (numeros)  
-
 for num in numeros
 {
- if num % 5 = 0
+ if (num % 5 == 0)
  {
   print("\(num)")
   print("#Bingo!!!")
  }
- if num % 2 = 0
+ if (num % 2 == 0)
  {
   print("\(num)")
   print("#par")
