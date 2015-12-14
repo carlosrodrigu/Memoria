@@ -1,0 +1,29 @@
+import IUKit
+
+var numeros = 1...100 
+
+print (numeros)  
+
+for num in numeros
+{
+ if num % 5 = 0
+ {
+  print("\(num)")
+  print("#Bingo!!!")
+ }
+ if num % 2 = 0
+ {
+  print("\(num)")
+  print("#par")
+ }
+ else
+ {
+  print("\(num)")
+  print("#impar")
+ }
+ if num >= 30 && num <= 40
+ {
+  print("\(num)")
+  print("#Viva Swift!!!")
+ }
+}
